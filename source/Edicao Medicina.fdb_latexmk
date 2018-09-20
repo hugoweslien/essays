@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1537196073 "Edicao Medicina.xdv" "Edicao Medicina.pdf" "Edicao Medicina" 1537196073
-  "Edicao Medicina.xdv" 1537196073 16648 7cd9a3075c6ca4636ae220cd3633da06 "xelatex"
+["xdvipdfmx"] 1537425963 "Edicao Medicina.xdv" "Edicao Medicina.pdf" "Edicao Medicina" 1537425963
+  "Edicao Medicina.xdv" 1537425963 18192 757e226c85470d0e69c1c52c4051f21d "xelatex"
   (generated)
   "Edicao Medicina.pdf"
-["xelatex"] 1537196070 "Edicao Medicina.tex" "Edicao Medicina.xdv" "Edicao Medicina" 1537196073
+["xelatex"] 1537425962 "Edicao Medicina.tex" "Edicao Medicina.xdv" "Edicao Medicina" 1537425963
   "/home/hugoweslien/.TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1480098701 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/home/hugoweslien/.TinyTeX/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1480098815 1458 43ab4710dc82f3edeabecd0d099626b2 ""
   "/home/hugoweslien/.TinyTeX/texmf-dist/tex/generic/oberdiek/ifpdf.sty" 1490564930 1251 d170e11a3246c3392bc7f59595af42cb ""
@@ -26,11 +26,14 @@
   "/home/hugoweslien/.TinyTeX/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def" 1529097033 15470 444a43d667219f78b832a3c1aaef4e20 ""
   "/home/hugoweslien/.TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse.sty" 1526248607 77213 9d7407dbdd9d11c497209c4b44354bb8 ""
   "/home/hugoweslien/.TinyTeX/texmf-dist/tex/latex/lm/lmodern.sty" 1480098833 1606 c17281c7cff2bbd7ff0173e1433487ec ""
+  "/home/hugoweslien/.TinyTeX/texmf-dist/tex/latex/ms/everysel.sty" 1480098835 4623 936bfb87af7b91b6496a2317f80db16b ""
+  "/home/hugoweslien/.TinyTeX/texmf-dist/tex/latex/ms/ragged2e.sty" 1480098835 9938 95cd4dc3edfd2c1a9e8f3f4cc43db1ce ""
+  "/home/hugoweslien/.TinyTeX/texmf-dist/tex/latex/setspace/setspace.sty" 1480098838 22913 a27d7908fc6f0385466454a966a316eb ""
   "/home/hugoweslien/.TinyTeX/texmf-dist/web2c/texmf.cnf" 1522066949 33362 cf75436e19743e94a92a6b1b9183c434 ""
-  "/home/hugoweslien/.TinyTeX/texmf-var/web2c/xetex/xelatex.fmt" 1537194153 2430762 0ec25ae01a066bf1f9c9e0d3fe955235 ""
+  "/home/hugoweslien/.TinyTeX/texmf-var/web2c/xetex/xelatex.fmt" 1537419566 2430760 833c14ce4b5eee78a0513b7a9345f785 ""
   "/home/hugoweslien/.TinyTeX/texmf.cnf" 1532946576 611 7ab3f5602b1e14b29ec7b4d8133e8b23 ""
-  "Edicao Medicina.aux" 1537196073 8 a94a2480d3289e625eea47cd1b285758 ""
-  "Edicao Medicina.tex" 1537196068 2329 c592a21adbd91d722757f9f83c847f4c ""
+  "Edicao Medicina.aux" 1537425963 8 a94a2480d3289e625eea47cd1b285758 ""
+  "Edicao Medicina.tex" 1537425960 2554 a21aad02f11fbdbdf8565b54689ca485 ""
   (generated)
   "Edicao Medicina.aux"
   "Edicao Medicina.xdv"
