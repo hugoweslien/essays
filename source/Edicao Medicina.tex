@@ -1,6 +1,14 @@
 %! TeX program = xelatex
 
-\documentclass[12pt]{article}
+\documentclass[12pt]{apa6}
+
+%apastyle begins
+\usepackage[american]{babel}
+\usepackage{csquotes}
+\usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
+\DeclareLanguageMapping{american}{american-apa}
+\addbibresource{bibliography.bibi}
+%apastyle ends
 
 \usepackage[a4paper]{geometry}
 \usepackage{ragged2e}
@@ -29,14 +37,11 @@
     \end{center}
 \end{titlepage}
 
-% Introduction 
 \begin{center}
-    \Huge\textbf{Introdu\c c\~ao}
+    \Huge{Introdu\c c\~ao}
 \end{center}
 
-% Content
 \justifying
-% Shared Context
 Todos temos um tempo limitado neste planeta, a dura\c c\~ao varia com os
 cuidados que temos com o nosso corpo. No entanto, se olharmos para a forma como
 n\'os, nossos familiares, colegas e amigos tratamos os nossos corpos
@@ -48,15 +53,15 @@ reduzida e ao longo do caminho teremos os efeitos secund\'arios dessas escolhas
 entre outras).
 
 Para evitar que isto aconten\c ca,  temos que assumir o controle, como diz o
-Tomassi (2011) "o poder real \'e o grau em que uma pessoa tem controle sobre as
+\textcite{Tomassi2011} "o poder real \'e o grau em que uma pessoa tem controle sobre as
 suas pr\'oprias circunst\~ancias. O poder real \'e o grau em que controlamos as
 direc\c c\~oes das nossas vidas". Isto significa que assumiremos o controle das
 pesquisas, experi\~encias, monitoramento dos biomarcadores, mensuramento do
-prpogresso e acima de tudo remove a ideia de que s\'o so m\'edicos \'e que
+progresso e acima de tudo remover a ideia de que s\'o m\'edicos \'e que
 sabem o que \'e saudavel para n\'os; teremos aux\'ilio de m\'edicos mas as
 escolhas ser\~ao nossas no fim do dia. 
 
-Proponho para esta tarefa um modelo de pesquisa que envolve 3 est\'agios: a
+Para esta tarefa proponho m modelo de pesquisa que envolve 3 est\'agios: a
 recolha de hip\'oteses (atrav\'es de artigos cient\'ificos), an\'alise dos
 tratamentos (usando m\'etodos estat\'isticos e de racionalidade) e
 experi\^encias (onde biomarcadores e como nos sentimos ajudaram-nos a
@@ -65,8 +70,36 @@ determinar se o tratamento \'e eficaz).
 
 
 \begin{center}
-    \Huge\textbf{Fonte Veritatis}
+    \Huge{Estabelecendo a Base}
 \end{center}
+
+\justifying
+Antes de alterar certos factores do nosso estilo de vida temos que ter um ponto
+de refer\^encia que serve como base para medirmos o progresso. Iremos
+estabelecer esta base olhando para os exames de sangue que cont\'em os
+indicadores mensur\'aveis do nosso estado biol\'ogico (biomarcadores).
+Avaliaremos os seguintes biomarcadores: Testosterona, Hemot\'ocrito,
+Fibrinog\'enio, Prote\'ina C-Reactiva, Magn\'esio, Ferro, Ferritina, Vitamina
+B12, Colesterol, HDL, LDL, HDL-P, LDL-P, Lp(a), Triglic\'erides, Glucose em
+jejum, Toler\^ancia da Glucose Oral, HbA1c, Insulina, Estradiol, Glutatione,
+Vitamina D. 
+
+
+\begin{center}
+    \Huge{Biomarcadores}
+\end{center}
+
+\Large{Testosterona}
+
+
+
+
+
+
+
+
+
+\printbibliography
 
 \end{document}
 
