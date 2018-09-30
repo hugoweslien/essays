@@ -1,16 +1,11 @@
 %! TeX program = xelatex
 
-\documentclass[12pt]{apa6}
-
-%apastyle begins
-\usepackage[american]{babel}
-\usepackage{csquotes}
-\usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
-\DeclareLanguageMapping{american}{american-apa}
-\addbibresource{bibliography.bibi}
-%apastyle ends
+\documentclass[12pt]{article}
 
 \usepackage[a4paper]{geometry}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
 \usepackage{ragged2e}
 \usepackage{lmodern}
 \usepackage{fontspec}
@@ -53,7 +48,7 @@ reduzida e ao longo do caminho teremos os efeitos secund\'arios dessas escolhas
 entre outras).
 
 Para evitar que isto aconten\c ca,  temos que assumir o controle, como diz o
-\textcite{Tomassi2011} "o poder real \'e o grau em que uma pessoa tem controle sobre as
+Tomassi (2011) "o poder real \'e o grau em que uma pessoa tem controle sobre as
 suas pr\'oprias circunst\~ancias. O poder real \'e o grau em que controlamos as
 direc\c c\~oes das nossas vidas". Isto significa que assumiremos o controle das
 pesquisas, experi\~encias, monitoramento dos biomarcadores, mensuramento do
@@ -61,7 +56,7 @@ progresso e acima de tudo remover a ideia de que s\'o m\'edicos \'e que
 sabem o que \'e saudavel para n\'os; teremos aux\'ilio de m\'edicos mas as
 escolhas ser\~ao nossas no fim do dia. 
 
-Para esta tarefa proponho m modelo de pesquisa que envolve 3 est\'agios: a
+Para esta tarefa proponho um modelo de pesquisa que envolve 3 est\'agios: a
 recolha de hip\'oteses (atrav\'es de artigos cient\'ificos), an\'alise dos
 tratamentos (usando m\'etodos estat\'isticos e de racionalidade) e
 experi\^encias (onde biomarcadores e como nos sentimos ajudaram-nos a
@@ -70,11 +65,59 @@ determinar se o tratamento \'e eficaz).
 
 
 \begin{center}
-    \Huge{Estabelecendo a Base}
+    \Huge{Anatomia e Fisiologia Humana}
 \end{center}
 
 \justifying
-Antes de alterar certos factores do nosso estilo de vida temos que ter um ponto
+A biologia \'e a ci\^encia que estuda a vida e os organismos vivos, fazem parte
+dos ramos da biologia a anatomia e fisiologia. A anatomia estuda como o corpo
+est\'a estruturado (as partes) e a fisiologia estuda como as partes do corpo 
+funcionam.  O corpo humano \'e uma estrutura complexa de c\'elulas, tecidos, 
+org\~aos e sistemas que trabalham em conjunto para manter-nos vivos. 
+Esta estrutura complexa \'e composta por 10 sistemas biol\'ogicos: esquel\'tico,
+cardiovascular, endocrino, respirat\'orio, digestivo, urin\'rio, reprodutivo e
+limf\'tico, cada um executando uma fun\c c\~ao para manter o nosso corpo em
+equil\'ibrio (homeostase).
+
+\begin{flushleft}
+\Large{1. Sistema Esquel\'etico}
+\end{flushleft}
+\justifying
+\noindent
+Pare por um momento e tente imaginar-se sem ossos, serias uma massa de
+org\~aos, pele e m\'usculos. Para garantir que esses elementos tenham forma
+precisam de ossos, que fazem parte do sistema esquel\'etico assim como
+cartilagem,  ligamentos e outros tecidos. Dando-nos suporte, facilitando
+locomo\c c\~ao e protegendo os org\~aos internos. 
+
+\begin{flushleft}
+\Large{2. Sistema Nervoso}
+\end{flushleft}
+\justifying
+\noindent
+O sistema nervoso colecta informa\c c\~ao do nosso ambiente atrav\'es dos 5
+sentidos: a vis\~ao, o olfato, o paladar, a audi\c c\~ao e o tato, processa a
+informa\c c\~ao atrav\'es do c\'erebro e envia um sinal para as outras partes
+do corpo.  Um exemplo: Ao tocarmos uma ch\'avena de ch\'a quente, estamos a
+usar o tato, o cer\'ebro processa a temperatura da ch\'avena e conclui que a
+temperatura \'e muito alta para as nossas m\~aos e manda um sinal para os dedos
+largarem a ch\'avena. 
+
+
+\begin{figure}[h]
+\includegraphics[scale=0.5]{bodysys.jpeg}
+\caption{Sistemas do Corpo Humano}
+\end{figure}
+\pagebreak
+
+
+
+\begin{center}
+    \Huge{Biomarcadores}
+\end{center}
+\justifying
+Antes de alterar certos factores do nosso estilo de vida temos que 
+ter um ponto
 de refer\^encia que serve como base para medirmos o progresso. Iremos
 estabelecer esta base olhando para os exames de sangue que cont\'em os
 indicadores mensur\'aveis do nosso estado biol\'ogico (biomarcadores).
@@ -85,21 +128,23 @@ jejum, Toler\^ancia da Glucose Oral, HbA1c, Insulina, Estradiol, Glutatione,
 Vitamina D. 
 
 
+
+\begin{flushleft}
+\Large{1. Testosterona}
+\end{flushleft}
+
+
+
+
+
+
+\pagebreak
+
 \begin{center}
-    \Huge{Biomarcadores}
+    % A tabela com a descricao dos biomarcadores a os intervalos
+    \Huge{Estabelecendo a Base}
 \end{center}
 
-\Large{Testosterona}
-
-
-
-
-
-
-
-
-
-\printbibliography
 
 \end{document}
 
